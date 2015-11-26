@@ -15,10 +15,7 @@ import org.koushik.javabrains.messenger6.service.MessageService;
 
 /**
  * REST Web Services 19 - Implementing POST Method
- * http://localhost:8080/messenger6/webapi/messages
- * http://localhost:8080/messenger6/webapi/messages/1
- * http://localhost:8080/messenger6/webapi/messages/2
- * http://localhost:8080/messenger6/webapi/messages/test
+ * POST http://localhost:8080/messenger6/webapi/messages {"author":"koushik","id":3,"message":"Hello World 2"}
  */
 @Path("/messages")
 public class MessageResource {	
